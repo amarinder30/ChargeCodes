@@ -704,7 +704,7 @@ function rebuildDropdown() {
 function loadExcelData() {
 
     return fetch(
-        "Project_Charge_Codes_Full.xlsx?t=" + Date.now(),
+        "https://workspace.fortisbc.com/ws/QAIS/QMgmt/Testing/QA_Charge_Codes/Project_Charge_Codes.xlsx?t=" + Date.now(),
         { cache: "no-store" }
     )
     .then(r => r.arrayBuffer())
