@@ -371,22 +371,6 @@ input:focus {
     margin-top: 8px;
 }
 
-.refreshing {
-    background: linear-gradient(
-        135deg,
-        #f6b73c,
-        #e79c12
-    ) !important;
-}
-
-.success {
-    background: linear-gradient(
-        135deg,
-        #2bb34a,
-        #107c10
-    ) !important;
-}
-
 .refresh-success {
     background: linear-gradient(
         135deg,
@@ -833,7 +817,7 @@ document.getElementById("refreshBtn")
     .then(() => {
 
         button.classList.add("refresh-success");
-		button.innerHTML = "Refresh Complete!";
+		button.innerHTML = "Refresh Complete !";
 		
 
         setTimeout(() => {
